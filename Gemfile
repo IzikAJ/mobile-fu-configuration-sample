@@ -32,6 +32,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# gem 'mobile-fu', path: "~/self/mobile-fu"
+gem 'mobile-fu', git: "git@github.com:IzikAJ/mobile-fu.git"
+
+gem "cells", "~> 3.11.3"
+gem 'actionpack-page_caching'
+gem 'actionpack-action_caching'
+
+gem "slim-rails"
+gem 'quiet_assets'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
